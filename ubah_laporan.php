@@ -26,6 +26,8 @@ $data = $query->fetch();
 <?php include "navbar.php"  ?>
 
 <br>
+<br>
+<br>
 
 <div class="container">
 
@@ -35,7 +37,7 @@ $data = $query->fetch();
       
 
       <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Isi Laporan</label>
+        <label for="exampleFormControlTextarea1" class="form-label">Edit Laporan</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="isi_laporan" required><?php echo $data['isi_laporan'] ?></textarea>
       </div>
 
